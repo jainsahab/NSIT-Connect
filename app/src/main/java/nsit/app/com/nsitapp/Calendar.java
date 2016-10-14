@@ -41,7 +41,7 @@ import java.util.ArrayList;
 import functions.Constant;
 import functions.Utils;
 
-public class Calender extends Fragment implements Constant {
+public class Calendar extends Fragment implements Constant {
 
     private static String timetable = null;
     private boolean loadingMore = false;

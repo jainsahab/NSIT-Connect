@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
                 getSupportActionBar().setTitle("Video");
                 break;
             case 4:
-                f = new Calender();
+                f = new Calendar();
                 getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
                 ft.replace(R.id.content_frame, f);
                 getSupportActionBar().setTitle("Time Table");
